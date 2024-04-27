@@ -1,0 +1,128 @@
+/* / */
+/* App.css */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color:white; */
+  /* color: white; */
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px; /* Adjust as needed */
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list li {
+  margin-right: 20px;
+}
+
+.list li:last-child {
+  margin-right: 0;
+}
+
+.list li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.list li a:hover {
+  color: lightgray;
+}
+
+.list {
+  margin-top: 100px;
+  /* border: 1px solid black; */
+}
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  background:blue;
+  height:32px;
+  color:white;
+  font-weight: 500;
+  
+}
+.container{
+  margin:0 auto;
+}
+button:hover{
+  background-color:black;
+  color: brown;
+  border-radius: 0.5rem;
+  
+}
+  /* Add your padding value */
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.hero{ margin:0 auto;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  margin: calc(100vh-72px);
+
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.hero h1{
+  font-weight:800 ;
+  line-height: 102px;
+  font-size: 108px;
+}
+.hero p{
+  font-weight:800 ;
+  color: var(--grey);
+  max-width: 400px;
+}
+.hero-btn button{
+  font-size: 24px;
+  /* display: flex; */
+  gap:40px;
+  margin: 0px 10px;
+}
+.hero-btn {
+  
+}
+.secondary-btn{
+  background: transparent;
+  color: var(--grey);
+  border: 1px solid grey;
+}
+.shopping p{
+  font-size: 140px;
+  margin-bottom: 8px;
+}
+.grand-icons{
+  display: flex;
+ gap: 16px; 
+}
